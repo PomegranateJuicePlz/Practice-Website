@@ -25,16 +25,12 @@ function increaseLocal() {
     document.getElementById("lsBtn").innerText = count;
 }
 
-
 function increaseSession() {
     let count = Number(sessionStorage.getItem("counter")) || 0;
     count++;
     sessionStorage.setItem("counter", count);
     document.getElementById("ssBtn").innerText = count;
 }
-
-
-
 
 
 
