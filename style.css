@@ -1,6 +1,6 @@
 body {
-    border-style: dashed;
-    background-color: #87CEEB
+    border-style: solid;
+    background-color: #808080;
 }
 p {
     color: white;
@@ -22,7 +22,7 @@ div {
 }
 
 p~div >p{
-    color: orange;
+    color: cyan;
 }
 
 p + div {
@@ -37,7 +37,7 @@ ol > li{
 }
 
 li + li {
-    border: dotted 5px;
+    border: solid 5px;
 }
 
 #pod{
